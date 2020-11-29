@@ -80,6 +80,7 @@ void main()
     //Se calcula el difuse color de cada fragmento
     diffuseColor = vertexColor * texture(tex, vertexTexcoords);
 }
+"""
 
 
 #Se define el color que tendra el fondo
