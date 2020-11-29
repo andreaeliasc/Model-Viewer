@@ -80,23 +80,7 @@ void main()
     //Se calcula el difuse color de cada fragmento
     diffuseColor = vertexColor * texture(tex, vertexTexcoords);
 }
-"""
-time_shader = """
-#version 450
-layout(location = 0) out vec4 fragColor;
-in float intensity;
-in float intensity2;
-in vec2 vertexTexcoords;
-in vec4 shaderNormal;
-in float time;
-uniform sampler2D tex;
-uniform vec4 diffuse;
-uniform vec4 ambient;
-void main()
-{
-	fragColor = intensity * vec4(cos(time * 5.0), sin(time * 2.0), tan(time * 3.0), 1.0);
-}
-"""
+
 
 #Se define el color que tendra el fondo
 glClearColor(0.31, 0.82, 0.96, 1.0)
