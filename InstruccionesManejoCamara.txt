@@ -1,0 +1,106 @@
+Andrea Estefania Elias Cobar 
+
+INSTRUCCIONES DE MANEJO DE CAMARA Y COMANDOS
+Al renderizar la escena, es posible mover la camara que observa al modelo de Pusheen a sus alrededores.
+Para manejar la camara se establecieron los siguientes comandos, los cuales son para su uso con el teclado:
+
+- COMANDOS DE MANEJO DE CAMARA
+
+- Tecla LEFT (Flecha Izquierda)
+Al presionar esta tecla, la camara rotara alrededor del modelo horizontalmente con direccion a la izquierda,
+dara el efecto de que el modelo gira hacia la derecha, pero la camara es la que se esta moviendo a la izquierda.
+
+- Tecla RIGHT (Flecha Derecha)
+Al presionar esta tecla, la camara rotara alrededor del modelo horizontalmente con direccion a la derecha,
+dara el efecto de que el modelo gira hacia la izquierda, pero la camara es la que se esta moviendo a la derecha.
+
+- Tecla UP (Flecha Arriba)
+Al presionar esta tecla, la camara rotara verticalmente alrededor del modelo con direccion hacia arriba,
+dara el efecto de que el modelo gira hacia abajo, pero la camara es la que esta subiendo para ver el modelo desde arriba.
+
+- Tecla DOWN (Flecha Abajo)
+Al presionar esta tecla, la camara rotara verticalmente alrededor del modelo con direccion hacia arriba,
+dara el efecto de que el modelo gira hacia abajo, pero la camara es la que esta subiendo para ver el modelo desde arriba.
+
+- Tecla Z
+Al presionar esta tecla, la camara se acercara al modelo, lo que dara la percepcion de un ZOOM y que el modelo se hara mas grande.
+
+- Tecla X
+Al presionar esta tecla, la camara se alejara del modelo, lo que dara la percepcion de quitar el ZOOM y que el modelo sea m�s peque�o.
+
+
+- OTROS COMANDOS DE USO Y MODIFICACION DEL MODELO
+
+- Tecla O
+Al presionar esta tecla, la luz cambiara al lado frontal opuesto del modelo en donde no alumbra la luz y dejara la parte que tenia luz sin luz.
+Esto significa cambiar la camara de posicion en Z hacia el frente o hacia atras del modelo.
+
+- Tecla P
+Al presionar esta tecla, la luz cambiara al lado vertical opuesto del modelo en donde no alumbra la luz y dejara la parte que tenia luz sin luz.
+Esto significa cambiar la camara de posicion en Y sobre o debajo del modelo.
+
+- Tecla T
+Al presionar esta tecla, el modelo cambiara la forma en que se dibujan sus poligonos de manera que estos aparezcan completamente llenos.
+Es el efecto de mostrar un modelo completamente solido en todas sus superficies.
+
+- Tecla Y
+Al presionar esta tecla, el modelo cambiara la forma en que se dibujan sus poligonos de manera que solo aparezcan los puntos de los vertices de cada poligono.
+Es el efecto de mostrar un modelo formado por solo puntos de los vertices de triangulos.
+
+- Tecla U
+Al presionar esta tecla, el modelo cambiara la forma en que se dibujan sus poligonos de manera que estos aparezcan formados solo por lineas.
+Es el efecto de mostrar un modelo formado por solo lineas que unen vertices de triagulos.
+
+- Tecla Q
+Al presionar esta tecla, el modelo cambiara la textura que cubre al modelo a la original formada por una textura solida del color emblematico de Pusheen
+
+- Tecla W
+Al presionar esta tecla, el modelo cambiara la textura que cubre al modelo 
+
+- Tecla E
+Al presionar esta tecla, el modelo cambiara la textura que cubre al modelo Pusheen.
+
+- Tecla K 
+Al presionar esta tecla, se aumenta/disminuye la intensidad de la luz frontalmente del modelo, dependiendo si se esta viendo la parte delantera o trasera del modelo.
+
+- Tecla L
+Al presionar esta tecla, se aumenta/disminuye la intensidad de la luz frontalmente del modelo, dependiendo si se esta viendo la parte delantera o trasera del modelo.
+
+- Tecla V
+Al preisonar esta tecla, se cambia el color del fondo del modelo a un amarillo mostaza.
+
+- Tecla B
+Al preisonar esta tecla, se cambia el color del fondo del modelo a un celeste claro.
+
+- Tecla A
+Al preisonar esta tecla, se aumenta la instensidad del canal R del color del modelo.
+
+- Tecla S
+Al preisonar esta tecla, se disminuye la instensidad del canal R del color del modelo.
+
+- Tecla D
+Al preisonar esta tecla, se aumenta la instensidad del canal G del color del modelo.
+
+- Tecla F
+Al preisonar esta tecla, se disminuye la instensidad del canal G del color del modelo.
+
+- Tecla G
+Al preisonar esta tecla, se aumenta la instensidad del canal B del color del modelo.
+
+- Tecla H
+Al preisonar esta tecla, se disminuye la instensidad del canal B del color del modelo.
+
+- Tecla R
+Al preisonar esta tecla, se resetean los valores de los canales RGB del color a sus valores originales.
+
+
+- LENGUAJE DE PROGRAMACION UTILIZADO
+Se utilizo Python en la version 3.7.2 de 32 bits
+
+- LIBRERIAS EXTERNAS
+- Pygame - Utilizada para crear los objetos para el render, como la pantalla y los controles de la misma.
+- PyGLM - Utilizada para el manejo de matrices, vectores y sus cargas para su manipulacion.
+- Pyassimp - Utilizada para leer archivos .OBJ. (Se recomienda instalar la version 3.3)
+- Numpy - Utilizada para la creacion de matrices y sus operaciones.
+- Math - Utilizada para tener uso de funciones matematicas como el seno, coseno, y conversion de radianes.
+- PyOpenGL - Utilizada para hacer uso de los controles de cargas a render, compilacion de shaders y manejo de render en tiempo real.
