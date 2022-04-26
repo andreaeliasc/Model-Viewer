@@ -1,9 +1,7 @@
 #Andrea Estefania Elias Cobar
 #Carnet 17048
 #Graficas por Computador
-#Basado en el codigo de Dennis Aldana y modificado por Andrea Elias
 
-#Se importan las librerias necesarias para el proyecto
 import pygame
 import numpy
 import glm
